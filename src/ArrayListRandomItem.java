@@ -52,7 +52,7 @@ public class ArrayListRandomItem {
             slSize = sentenceList.size();
         }
 
-        while (slSize < 11) {
+        while (slSize < 10) {
             System.out.printf("Enter a word to add to %s (%d/10) or 'q' to quit\n", listName, slSize + 1);
             String word = input.nextLine();
             if (word.equals("q")) {
